@@ -1,0 +1,43 @@
+{
+    "https://en.wikipedia.org/wiki/Erd%C5%91s_number": {
+        "https://en.wikipedia.org/wiki/File:Erdos_budapest_fall_1992.jpg": {
+            "https://en.wikipedia.org/wiki/Erd%C5%91s_number": {
+                "https://en.wikipedia.org/wiki/File:Erdos_budapest_fall_1992.jpg": {},
+                "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s": {},
+                "https://en.wikipedia.org/wiki/Help:IPA/Hungarian": {}
+            },
+            "https://en.wikipedia.org/wiki/The_Man_Who_Loved_Only_Numbers": {
+                "https://en.wikipedia.org/wiki/Nova_(American_TV_series)": {},
+                "https://en.wikipedia.org/wiki/List_of_Nova_episodes#Season_15:_1987.E2.80.931988": {},
+                "https://en.wikipedia.org/wiki/Ramanujan": {}
+            },
+            "https://en.wikipedia.org/wiki/Talk:Jon_Folkman": {
+                "https://en.wikipedia.org/wiki/File:Crystal_personal.svg": {},
+                "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Biography": {},
+                "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Biography/Science_and_academia": {}
+            }
+        },
+        "https://en.wikipedia.org/wiki/Paul_Erd%C5%91s": {
+            "https://en.wikipedia.org/wiki/Personal_name": {
+                "https://en.wikipedia.org/wiki/File:Question_book-new.svg": {},
+                "https://en.wikipedia.org/wiki/Wikipedia:Verifiability": {},
+                "https://en.wikipedia.org/wiki/Special:EditPage/Personal_name": {}
+            },
+            "https://en.wikipedia.org/wiki/Personal_name#Western_name_order": {
+                "https://en.wikipedia.org/wiki/File:Question_book-new.svg": {},
+                "https://en.wikipedia.org/wiki/Wikipedia:Verifiability": {},
+                "https://en.wikipedia.org/wiki/Special:EditPage/Personal_name": {}
+            },
+            "https://en.wikipedia.org/wiki/File:Erdos_budapest_fall_1992_(cropped).jpg": {
+                "https://en.wikipedia.org/wiki/File:Erdos_budapest_fall_1992.jpg": {},
+                "https://en.wikipedia.org/wiki/1913": {},
+                "https://en.wikipedia.org/wiki/ELTE_Faculty_of_Science": {}
+            }
+        },
+        "https://en.wikipedia.org/wiki/Help:IPA/Hungarian": {
+            "https://en.wikipedia.org/wiki/Help:IPA": {},
+            "https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Pronunciation": {},
+            "https://en.wikipedia.org/wiki/International_Phonetic_Alphabet": {}
+        }
+    }
+}
