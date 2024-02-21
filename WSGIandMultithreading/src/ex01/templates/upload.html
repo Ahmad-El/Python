@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Upload images using Python and Flask</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="" enctype="multipart/form-data">
+            {{ csrf_token }}
+            <h5>Upload files using Python and Flask</h5>
+
+            <div class="form-group">
+                {% if msg %}
+                <div class="alert alert-info" role="alert">
+                    <ul><li>{{ msg }}</li></ul>
+                </div>
+                {% endif %}
+                <div class="ui-widget">
+                    <label for="tags">Upload File(s):</label>
+                    <input type="file" name="file" placeholder="select a file to upload" required>
+                    <br />
+                    <input type="submit" name="submit" value="Upload File(s)">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div>
+    <h2>Simple Audio Player</h2>
+    <ul>
+        {% for music_file in music_files %}
+            <li>
+                {{ music_file }}
+                <form action="{{ url_for('play') }}" method="post" style="display: inline;">
+                    {{ csrf_token }}
+                    <input type="hidden" name="selected_song" value="{{ music_file }}">
+                    <button type="submit">Play</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if selected_song %}
+        <h2>Now playing: {{ selected_song }}</h2>
+        <audio controls>
+            <source src="{{ url_for('uploaded_file', filename=selected_song) }}" type="audio/mp3">
+            Your browser does not support the audio tag.
+        </audio>
+    {% endif %}
+    </div>
+
+
+
+</body>
+</html>
