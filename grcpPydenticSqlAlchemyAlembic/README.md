@@ -90,7 +90,6 @@ which should print a list of JSON strings with "traitors'" names:
 {"first_name": "Red", "last_name": "Guy", "rank": "Impostor"}
 ```
 
-<h2 id="chapter-vii" >Chapter VII</h2>
 <h3 id="reading">Reading</h3>
 
 [Protocol Buffers using Python](https://developers.google.com/protocol-buffers/docs/pythontutorial)
